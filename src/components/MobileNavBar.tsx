@@ -7,7 +7,7 @@ interface MobileNavBarProps {
 }
 const MobileNavBar = ({isOpen,setIsOpen}: MobileNavBarProps) => {
   return (
-    <div className={`fixed top-0 right-0 w-full h-full bg-white/10 backdrop-blur-sm z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
+    <div className={`fixed top-0 right-0 w-full h-full bg-black/10 backdrop-blur z-50 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}
     onClick={() => setIsOpen(false)}>
         <motion.div initial={{
             x:100
@@ -24,6 +24,7 @@ const MobileNavBar = ({isOpen,setIsOpen}: MobileNavBarProps) => {
             damping:10,
            
         }}
+        onClick={(e) => e.stopPropagation()}
         className='flex flex-col  gap-5 items-start w-2/3 h-full bg-white/80 p-10 absolute top-0 right-0'>
             
             <Logo />
