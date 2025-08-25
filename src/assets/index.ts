@@ -1,0 +1,16 @@
+export { default as user1 } from './user1.jpg'
+export { default as user2 } from './user2.jpg'
+export { default as user3 } from './user3.jpg'
+export { default as barcode } from './barcode.png'
+export { default as heroImage } from './heroImage.png'
+export { default as partner1 } from './partner1.jpg'
+export { default as partner2 } from './partner2.jpg'
+export { default as partner3 } from './partner3.jpg'
+export { default as image1 } from './image1.jpg'
+export { default as image2 } from './image2.jpg'
+export { default as image3 } from './image3.jpg'
+export { default as sub1 } from './sub1.png'
+export { default as sub2 } from './sub2.png'
+export { default as sub3 } from './sub3.png'
+
+
