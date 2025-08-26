@@ -44,9 +44,9 @@ const ImageHolder = ({image,subsidiayImage,variant}: {image: string,subsidiayIma
 					stiffness: 100,
 				}}
 				className={`absolute top-[50%] ${
-					variant === 'left'
-						? 'right-[20%] -translate-x-1/2'
-						: 'left-[20%] translate-x-1/2'
+					variant === 'right'
+						? '-right-[10%]  -translate-x-1/2'
+						: '-left-[10%] translate-x-1/2'
 				}  -translate-y-1/2  md:w-full w-60 h-40 md:h-2/3  flex items-center justify-center`}
 			>
 				<img
